@@ -29,11 +29,11 @@ n_recommendation = 5  #number of recommendation given by the algo
 
 #############################################################
 #ask for the target item:
-asin = raw_input("Please enter an item ASIN (e.g. B0000CDBQT or B0000AE5Z7): ")
+asin = input("Please enter an item ASIN (e.g. B0000CDBQT or B0000AE5Z7): ")
 
 #############################################################
 #Import dataset and build the graph
-print "Eval Graph Partition"
+print ("Eval Graph Partition")
 start = time.time()
 G = cbp.create_graph(path)
 
