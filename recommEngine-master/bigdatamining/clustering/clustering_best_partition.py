@@ -1,5 +1,4 @@
 import networkx as nx # type: ignore
-import random
 import gzip
 import json
 import community # type: ignore
